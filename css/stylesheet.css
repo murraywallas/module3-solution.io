@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #7D52AD;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/**HEADER**/
+#header-nav {
+   background-color: #82AD52;
+    border-radius: 0;
+    border: 2px solid white;
+    position: relative;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand h1 { /*Food,LLC */
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .8;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #52ADAB;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  position: relative;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 6vw;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
